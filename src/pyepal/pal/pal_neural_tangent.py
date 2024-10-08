@@ -37,6 +37,7 @@ from ..models.nt import NTModel
 
 __all__ = ["PALNT", "NTModel"]
 
+
 # We move those functions out of the class so that we can parallelize them
 def _set_one_infinite_width_model(  # pylint:disable=too-many-arguments
     i: int,
